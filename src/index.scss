@@ -1,0 +1,47 @@
+body {
+	margin: 0;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.App {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	font-weight: 400;
+	height: 100vh;
+}
+
+h2 {
+	font-size: 3rem;
+}
+
+h1 {
+	font-size: 4rem;
+}
+
+button {
+	color: #fff;
+	border: none;
+	text-align: center;
+	padding: 4px 30px;
+	margin: 0px 10px;
+	font-size: 20px;
+	border-radius: 10rem;
+	cursor: pointer;
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+	transition: all 0.3s;
+
+	&.plus {
+		background-color: #458bf7;
+	}
+
+	&.minus {
+		background-color: #458bf7;
+	}
+}
+
+button:hover {
+	background-color: #3d7cdc;
+}
